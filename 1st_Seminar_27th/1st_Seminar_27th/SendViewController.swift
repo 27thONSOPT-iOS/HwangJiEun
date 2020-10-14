@@ -41,6 +41,7 @@ class SendViewController: UIViewController {
     
     
     @IBAction func touchUpSubmit(_ sender: UIButton) {
+        
         guard let dvc = self.storyboard?.instantiateViewController(identifier: "ResultViewController") as? ResultViewController else {return}
         
         dvc.email = self.emailTextField.text

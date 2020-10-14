@@ -20,10 +20,11 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setLabel()
+       
         // Do any additional setup after loading the view.
     }
     
+   
     func setLabel(){
         if let email = self.email,
            let isAutoUpdate = self.isAutoUpdated,
